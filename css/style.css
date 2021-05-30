@@ -1,0 +1,153 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bahnschrift SemiLight", sans-serif;
+    background: #F8EBE9;
+    width: 100%;
+    min-height: 726px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #637B99;
+    font-size: 13px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+a:hover {
+    color: #333;
+}
+
+a:active {
+    opacity: .7;
+    transition: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.big__block {
+    width: 1000px;
+    height: 645px;
+    box-shadow: 0 40px 80px #D5A293;
+    background: #fff;
+    display: flex;
+}
+
+.left {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 100%;
+    vertical-align: middle;
+    padding: 35px;
+}
+
+.left__link {
+    display: flex;
+    align-items: center;
+    color: #667C98;
+}
+
+.left__link::before {
+    content: '';
+    display: inline-block;
+    background-image: url(../images/arrow-back.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.right {
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+
+.link__wrapper {
+    text-align: right;
+}
+
+.state-links {
+    color: #999;
+    margin-left: 33px;
+}
+
+.link__2 {
+    color: #333;
+}
+
+.h1 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 32px;
+    font-weight: 500;
+}
+
+.h5 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.content__wrapper {
+    display: flex;
+}
+
+.video {
+    width: 180px;
+    height: 110px;
+    margin-bottom: 20px;
+    display: block;
+    border: none;
+}
+
+.last__link {
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.last__link::after {
+    content: '';
+    display: inline-block;
+    background-image: url(../images/arrow-forward.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.content__right {
+    margin-left: 50px;
+}
+
+.p {
+    width: 220px;
+    font-size: 18px;
+    line-height: 30px;
+    opacity: .8;
+}
